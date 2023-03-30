@@ -1,0 +1,86 @@
+.footer {
+  background-color: white;
+  color: black;
+}
+.footer_content {
+  padding: 20px;
+}
+.footer_content span {
+  color: red;
+}
+.footer_links {
+  padding: 10px;
+}
+h4 {
+  font-size: 13px;
+  line-height: 2;
+  color: #a5afb6;
+  text-transform: uppercase;
+}
+li {
+  padding: 2px;
+}
+
+.supportLink {
+  font-family: ProximaNova-Semibold, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.31;
+  color: #5c6c79;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: all 0.2s cubic-bezier(0.15, 0.69, 0.83, 0.67);
+  transition: all 0.2s cubic-bezier(0.15, 0.69, 0.83, 0.67);
+}
+
+.subscribebutton {
+  color: #5c6c79;
+  border-radius: 5px;
+  margin-top: 7px;
+  font-weight: 500;
+}
+
+.subscribebutton:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(238, 44, 44, 0.851);
+  color: white;
+}
+
+.supportLink:hover {
+  color: rgb(238, 157, 50);
+  cursor: pointer;
+}
+
+.googlestore{
+  height: 50px;
+  width:auto;
+}
+.applestore{
+  height: 68px;
+  width:auto;
+}
+
+.socialfooterlink{
+  height: 50px !important;
+  width: auto;
+  
+}
+.facebooklink:hover {
+  cursor: pointer;
+  color: #3b5998;
+}
+.twitterlink {
+  margin: 2px;
+  padding: 2px;
+}
+.twitterlink:hover {
+  cursor: pointer;
+  color: #00acee;
+}
+.instagramlink:hover {
+  cursor: pointer;
+  color: #feda75;
+}

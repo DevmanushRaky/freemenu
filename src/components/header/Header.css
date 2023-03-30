@@ -1,0 +1,36 @@
+.menu {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: end;
+  font-weight: 500;
+  list-style: none;
+}
+
+.nav_links {
+  color: rgb(19, 19, 19);
+  margin: 5px;
+  padding: 5px;
+}
+.nav_links:hover {
+  cursor: pointer;
+  background-color: rgba(201, 201, 201, 0.579);
+  border-radius: 30px;
+}
+.user_nav_links:hover {
+  cursor: pointer;
+  color: rgb(232, 109, 109);
+}
+
+.nav_links_helpcenter:hover::before {
+    content: attr(data-text);
+    display: block;
+    position: absolute;
+    background-color: #302e2e;
+    color: #f3f3f3;
+    top: 55px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
