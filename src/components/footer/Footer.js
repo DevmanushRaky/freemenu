@@ -90,19 +90,23 @@ function Footer() {
                 <ul className="list-unstyled">
                   <Row className="justify-content-between align-items-center">
                     <Col sm={12} md={12} className="d-flex justify-content-center justify-content-md-start mb-3 mb-md-0 align-items-center">
-                      <img className="googlestore" src={GoogleStore} alt="Download from Google Store" />
+                      <Link to="https://play.google.com/store/apps/details?id=com.freshmenu&utm_source=website&utm_medium=dlink&utm_campaign=appdownload" target="_blank">
+                        <img className="googlestore" src={GoogleStore} alt="Download from Google Store" />
+                        </Link>
+                      <Link to="https://apps.apple.com/in/app/freshmenu-fresh-meal-delivery/id957179182?utm_campaign=appdownload&utm_medium=dlink&utm_source=website" target="_blank">
                       <img className="applestore" src={AppleStore} alt="Download from Apple Store" />
+                      </Link>
                     </Col>
                     <Col sm={12} md={12} className="d-flex justify-content-center justify-content-md-end align-items-center">
-                      <a className='supportLink facebooklink' href="https://www.facebook.com/FreshMenuIndia" target="_blank" rel="noreferrer">
+                      <Link className='supportLink facebooklink' to="https://www.facebook.com/FreshMenuIndia" target="_blank" rel="noreferrer">
                         <FacebookIcon className="socialfooterlink" />
-                      </a>
-                      <a className='supportLink twitterlink ml-md-3' href="https://twitter.com/FreshMenuINDIA" target="_blank" rel="noreferrer">
+                      </Link>
+                      <Link className='supportLink twitterlink ml-md-3' to="https://twitter.com/FreshMenuINDIA" target="_blank" rel="noreferrer">
                         <TwitterIcon className="socialfooterlink" />
-                      </a>
-                      <a className='supportLink instagramlink ml-md-3' href="https://www.instagram.com/freshmenu/" target="_blank" rel="noreferrer">
+                      </Link>
+                      <Link className='supportLink instagramlink ml-md-3' to="https://www.instagram.com/freshmenu/" target="_blank" rel="noreferrer">
                         <InstagramIcon className="socialfooterlink" />
-                      </a>
+                      </Link>
                     </Col>
                   </Row>
                 </ul>
